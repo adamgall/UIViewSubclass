@@ -13,6 +13,8 @@
 		9CC9F7BE1CA46EF300ECA689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9F7BC1CA46EF300ECA689 /* Main.storyboard */; };
 		9CC9F7C01CA46EF300ECA689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9F7BF1CA46EF300ECA689 /* Assets.xcassets */; };
 		9CC9F7C31CA46EF300ECA689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9F7C11CA46EF300ECA689 /* LaunchScreen.storyboard */; };
+		9CC9F7CC1CA46F1000ECA689 /* Subclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC9F7CB1CA46F1000ECA689 /* Subclass.m */; };
+		9CC9F7CE1CA46F2100ECA689 /* Subclass.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9F7CD1CA46F2100ECA689 /* Subclass.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		9CC9F7BF1CA46EF300ECA689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CC9F7C21CA46EF300ECA689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CC9F7C41CA46EF300ECA689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC9F7CA1CA46F1000ECA689 /* Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subclass.h; sourceTree = "<group>"; };
+		9CC9F7CB1CA46F1000ECA689 /* Subclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subclass.m; sourceTree = "<group>"; };
+		9CC9F7CD1CA46F2100ECA689 /* Subclass.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Subclass.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				9CC9F7C11CA46EF300ECA689 /* LaunchScreen.storyboard */,
 				9CC9F7C41CA46EF300ECA689 /* Info.plist */,
 				9CC9F7B31CA46EF300ECA689 /* Supporting Files */,
+				9CC9F7CA1CA46F1000ECA689 /* Subclass.h */,
+				9CC9F7CB1CA46F1000ECA689 /* Subclass.m */,
+				9CC9F7CD1CA46F2100ECA689 /* Subclass.xib */,
 			);
 			path = UIViewSubclass;
 			sourceTree = "<group>";
@@ -137,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CC9F7C31CA46EF300ECA689 /* LaunchScreen.storyboard in Resources */,
+				9CC9F7CE1CA46F2100ECA689 /* Subclass.xib in Resources */,
 				9CC9F7C01CA46EF300ECA689 /* Assets.xcassets in Resources */,
 				9CC9F7BE1CA46EF300ECA689 /* Main.storyboard in Resources */,
 			);
@@ -150,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CC9F7BB1CA46EF300ECA689 /* ViewController.m in Sources */,
+				9CC9F7CC1CA46F1000ECA689 /* Subclass.m in Sources */,
 				9CC9F7B81CA46EF300ECA689 /* AppDelegate.m in Sources */,
 				9CC9F7B51CA46EF300ECA689 /* main.m in Sources */,
 			);
